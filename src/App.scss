@@ -1,0 +1,154 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ecf0f1;
+  height: 142vh;
+}
+
+.main-box {
+  margin: auto;
+  margin-top: 2vh;
+  height: 140vh;
+  width: 55vw;
+  padding: -2vw;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  section {
+    height: 20vh;
+  }
+  .article-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin-bottom: 5vh;
+    .wrap {
+      width: 70%;
+      .title {
+        margin: 2vh 0;
+      }
+      .sub-title {
+        font-weight: 500;
+      }
+      .text {
+        font-optical-sizing: auto;
+        font-size: x-large;
+        font-size: 1.2vw;
+        overflow: auto;
+      }
+      .icons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5vh;
+        i {
+          margin: 0.5vw;
+          font-size: 2vw;
+          transition: 1s;
+        }
+      }
+      #mail:hover {
+        color: rgb(0, 221, 255);
+      }
+      #phone:hover {
+        color: rgb(5, 240, 13);
+      }
+      #github:hover {
+        color: rgb(250, 5, 5);
+      }
+      #square:hover {
+        color: blue;
+      }
+    }
+    .facebook {
+      height: 100%;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img {
+        width: 80%;
+        height: 80%;
+        border-radius: 8px;
+      }
+    }
+  }
+  .article-2 {
+    overflow-y: auto;
+  }
+  .article-3 {
+    overflow-y: auto;
+    height: 27vh;
+  }
+  .article-4 {
+    height: 12vh;
+  }
+  .article-8 {
+    height: auto;
+  }
+}
+
+.justify {
+  margin: 1vw;
+}
+
+.description {
+  height: 50px;
+  width: 100%;
+}
+
+.picture {
+  height: 50px;
+  width: 100%;
+}
+
+h3 {
+  margin-bottom: 2vh;
+}
+
+img {
+  margin: 1%;
+}
+
+@media screen and (max-width: 800px) {
+  .img {
+    display: none;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+  }
+  .title,
+  .sub-title {
+    text-align: center;
+  }
+  .icons {
+    justify-content: center;
+  }
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+@media screen and (max-width: 700px) {
+  .text {
+    font-size: x-small;
+  }
+  .article-1 {
+    margin-bottom: 10vh;
+  }
+  h4,
+  h3,
+  h2 {
+    font-size: 10px;
+  }
+
+}
