@@ -87,6 +87,9 @@ body {
   .article-4 {
     height: 12vh;
   }
+  .article-5 {
+    margin-bottom: 5vh;
+  }
   .article-8 {
     height: auto;
   }
@@ -118,6 +121,25 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  gap: 1.2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  width: 30%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  .picture {
+    border-radius: 5px 5px 0 0;
+    margin: 0%;
+  }
+  .description {
+    margin: 0% 1% 0 1%;
+    font-size: medium;
+    font-weight: 200;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -148,6 +170,18 @@ img {
   h3,
   h2 {
     font-size: 10px;
+  }
+  .description {
+
+  }  
+  .project {
+    width: 60%;
+    height: 30px;
+    flex-direction: row;
+  }
+  .picture {
+    width: 60%;
+    height: 30px;
   }
 
 }
