@@ -48,7 +48,7 @@ function App() {
             </div>
           </div>
           <div className="facebook" id="facebook" ref={elemet}>
-            <img src="../../public/perfil.jpg" className="img" />
+            <img src="../../public/Tetris.png" className="img" />
           </div>
         </section>
         <section className="article-2">
