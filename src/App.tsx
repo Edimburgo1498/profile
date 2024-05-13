@@ -76,11 +76,11 @@ function App() {
             }}
           >
             <h5>Lightia - full stack developer</h5>
-            Colabore en la creación de aplicaciones web utilizando el stack    
-                    MERN, me encargaba del mantenimiento de la aplicación y él  
-                      desarrollo de nuevas funcionalidades para distintos
-            sistemas,             responsable del mantenimiento de las bases de
-            datos y las             constantes actualizaciones que se requerían,
+            Colabore en la creación de aplicaciones web utilizando el stack
+            MERN, me encargaba del mantenimiento de la aplicación y él 
+            desarrollo de nuevas funcionalidades para distintos
+            sistemas, responsable del mantenimiento de las bases de
+            datos y las constantes actualizaciones que se requerían,
             seguridad de lo Sistemas y lógica de negocio.
             <h5 style={{ marginTop: "3%" }}>Cti - Soporte TI soporte</h5>+
             creación de reportes de errores y fallos, implementación de
@@ -107,20 +107,24 @@ function App() {
           <h3>project</h3>
           <div className="grid-container">
             <div className="project">
-              <a href="https://tetris-dy16.vercel.app/" className="link">
+              <a href="https://tetris-dy16.vercel.app/" className="link" style={{textDecoration: 'none'}}>
                 <img src="../../Tetris.png" alt="" className="picture" />
                 <div className="description">
-                  <p className="descriptio">Testris</p>
+                  <p className="text-style">Testris</p>
                 </div>
               </a>
             </div>
             <div className="project">
               <img src="" alt="" className="picture" />
-              <div className="description"></div>
+              <div className="description">
+              <p className="text-style"></p>
+              </div>
             </div>
             <div className="project">
               <img src="" alt="" className="picture" />
-              <div className="description"></div>
+              <div className="description">
+              <p className="text-style"></p>
+              </div>
             </div>
           </div>
         </section>
@@ -137,8 +141,8 @@ function App() {
             <img
               src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
               alt="bash"
-              width="40"
-              height="40"
+              width="50"
+              height="50"
             />
             <a
               href="https://getbootstrap.com"
